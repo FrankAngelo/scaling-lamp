@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css" 
+    integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51"
+     crossorigin="anonymous">
+					<title>museu nacional</title>
+ <style>
+
+.fundoAzulEscuro{
+background-color: #046;
+}
+.fundoCinzaClaro{ background-color: #ddd;
+}
+body{
+  background: linear-gradient(100deg, rgb(173, 212, 237), rgb(114, 143, 223));
+}
+#msu1{
+
+display: flex;
+position: absolute;
+left: 45%;
+background-color: rgb(169, 192, 232);
+  
+}
+h1,h2,h3,h4,h5{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+div{
+  
+display: inline-block;
+}
+#map{
+  position: absolute;
+  left: 45%;
+  top: 124%;
+}
+#cor1{
+  background-color: cadetblue;
+  color: #ddd;
+}
+  
+
+
+
+</style>
+</head>
+
+
+<div class="p-3 bg-dark text-white d-flex justify-content-start">
+<img src="museu.png"/>
+<h1 class="m-auto align-self-center">MUSEU NACIONAL</h1>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Entre em contato</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sobre nós
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">História</a></li>
+            <li><a class="dropdown-item" href="#">Local</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Saiba mais</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Pesquisa</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+ 
+
+
+
+
+<div class="col" class="container mt-5">
+<div class="row">
+<div class="col-sm-8">
+<div class="rounded p-2 mb-3 fundoCinzaClaro">
+<h2>História do Museu</h2>
+
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cHkp8h0HQss?start=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+
+<div class="row" class="rounded p-2 mb-3 fundoCinzaClaro justify-content-start align-content-start">
+<h2></h2>
+<div id="cor1" class="container" style="width: 400px; height: 500px;">
+<h5>A história do Museu Nacional</h5>
+<p>Inicialmente chamada Museu Real, 
+  a criação dessa instituição foi
+   uma das iniciativas de Dom João VI
+    para promover o crescimento socioeconômico do Brasil,
+     por meio da difusão de educação, cultura e ciência. 
+
+Em 1818, o Museu Nacional foi instalado no Campo de Santana,
+ na Praça da República, no centro do Rio de Janeiro. 
+
+Em 1892, ele foi transferido para o Palácio de São Cristóvão,
+ que pertencia a um comerciante português chamado Elias Antônio Lopes.</p>
+        <img src="imagem1.jpg">
+       <img src="imagem2.jpg" class="m-1">
+       
+       <img src="imagem3.jpg"  class="m-1">
+       <img src="imagem4.jpg">
+      </div>
+      
+      <div class="col" class="container justify-content-start p-2">
+     
+ </div>
+          <div class="col" class="container justify-content-start">
+    
+      </div>
+     </div>
+  
+</div>
+
+
+<img src="depoimento.png" style="height: 300px; width: 300px; margin:1px; padding: 1px;" class="align-bottom m-5">
+
+
+
+      
+
+
+
+<div class="row" id="msu1" class="container" style="justify-content: end; width: 300px; height: auto;" > 
+<ul class="nav nav-pills flex-column">
+<li class="nav-item"><h3>EXPOSIÇÕES</h3>
+<a class="nav-link" id="n1" href="#" onmouseover="marcar (this.id)" onmouseout="marcar (this.id)">ANTROPOLOGIA BIOLÓGICA</a>
+ 
+</li>
+<li class="nav-item">
+<a class="nav-link" id="n2" href="#" onmouseover="marcar (this.id)" onmouseout="marcar (this.id)">ARQUEOLOGIA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="n3" href="#" onmouseover="marcar (this.id)" onmouseout="marcar (this.id)">ETNOLOGIA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="n4" href="#" onmouseover="marcar (this.id)" onmouseout="marcar (this.id)">GEOLOGIA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="n5" href="#" onmouseover="marcar (this.id)" onmouseout="marcar (this.id)">PALEONTOLOGIA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="n6" href="#" onmouseover="marcar (this.id)" onmouseout="marcar (this.id)">ZOOLOGIA</a>
+</li>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="n12" href="#" onmouseover="marcar (this.id)" onmouseout="marcar (this.id)">E mais alguns outros...</a>
+</li>
+</ul>
+</div>
+
+
+
+<div id="map" class="col" class="justify-content-end align-content-end">
+<h2></h2>
+<h5>Como chegar</h5>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206446993278!2d-43.23114232861968!3d-22.90575499196388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1684287794999!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+
+
+
+
+
+<script>
+const marcar=(obj)=>{
+document.getElementById(obj).classList.toggle("active");
+
+}
+</script>
+<footer class="mt-5 p-4 bg-AzulEscuro text-white text-center">
+<p>Copyright © 2023 Museu Nacional/UFRJ</p>
+<p>Francisco Angelo Lima Silva</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+  crossorigin="anonymous"></script>
+
+   </body>
+</html>
